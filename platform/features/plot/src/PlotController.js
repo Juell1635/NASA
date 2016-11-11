@@ -254,7 +254,9 @@ define(
                 } else {
                     var domainAxis = $scope.axes[0];
 
-                    domainAxis.chooseOption(bounds.domain);
+                    if (bounds.domain) {
+                        domainAxis.chooseOption(bounds.domain);
+                    }I
                     updateDomainFormat();
                     setBasePanZoom(bounds);
                     requery();

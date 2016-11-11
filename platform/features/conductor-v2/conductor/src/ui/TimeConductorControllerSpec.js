@@ -292,7 +292,6 @@ define(['./TimeConductorController'], function (TimeConductorController) {
                     end: 10
                 };
 
-
                 controller = new TimeConductorController(
                     mockScope,
                     mockWindow,

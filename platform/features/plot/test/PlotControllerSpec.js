@@ -126,7 +126,8 @@ define(
                     'off',
                     'bounds',
                     'timeSystem',
-                    'timeOfInterest'
+                    'timeOfInterest',
+                    'follow'
                 ]);
 
                 controller = new PlotController(
